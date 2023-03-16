@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Тестовое окно</title>
+	<script src="jquery-3.6.1.min.js" defer></script>
+	<script>
+		$(function(){
+			$('#changeButton')
+				.click(function(){
+					$('#noSee').css('display', 'none');
+			});
+		});
+	</script>
+	<style type="text/css">
+		/*#popup-container {
+			display: none;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			background-image: url('img/bg.png');
+			z-index: 10;
+		}
+
+		.popur {
+			display: none;
+			width: 600px; 
+			position: absolute; 
+			top: 200px;
+			margin: 0 400px;
+			padding: 30px; 
+			padding-top: 10px;
+			background-color: #FFF7FC; 
+			border-style: solid; 
+			border-width: 2px; 
+			border-color: #fa0b8d; 
+			border-radius: 10px;
+		}
+		#contacts-text {
+			font-size: 24px;
+			font-family: Arial;
+		}
+		.client-contacts {
+			width: 580px; 
+			height: 30px; 
+			padding: 10px; 
+			line-height: 1.42857143; 
+			color: #333; vertical-align: 
+			middle; 
+			background-color: #fff; 
+			border: 1px solid #ccc; 
+			border-radius: 6px; 
+			font-size: 16px;
+		}
+
+		.send-contacts {
+			width: 600px; 
+			height: 54px; 
+			color: #FFF7FC;
+			background: linear-gradient(30deg, #fa0b8d, #ff8b5d);
+			font-size: 16px;
+			padding: 10px; 
+			border-width: 0;
+			border-radius: 6px;
+		}*/
+	</style>
+</head>
+<body>
+	<button id="changeButton">Текст ниже пропади!</button>
+	<div id="noSee">Я пропаду</div>
+
+	<div class="popur">
+		<p id="contacts-text">Заказать звонок</p>
+		<input type="tel" placeholder="Ваш телефон" name="tel" class="client-contacts"><br><br>
+		<input type="email" placeholder="Ваша почта" name="email" class="client-contacts"><br><br>
+		<input type="submit" value="Отправить" class="send-contacts">
+	</div>
+
+</body>
+</html>
+

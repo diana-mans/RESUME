@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Дипломный проект</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="jquery-3.6.1.min.js"></script>
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<div id="popup-container">
+		<div id="popur">
+			<p id="contacts-text">Заказать звонок</p>
+			<input type="tel" placeholder="Ваш телефон" name="tel" class="client-contacts"><br><br>
+			<input type="email" placeholder="Ваша почта" name="email" class="client-contacts"><br><br>
+			<input type="submit" value="Отправить" class="send-contacts">
+		</div>
+	</div>
+	<header>
+		<div id="accordion">
+			<h3>MENU</h3>
+			<div id="header__info">
+				<a href="#skills">Услуги</a>
+				<a href="#examples" style="color: #fc557c; text-decoration: underline;">Портфолио</a>
+				<a href="#special">Стоимость</a>
+			</div>
+		</div>
+		<div id="header__phone">
+			<div id="header__phone__number">+7 (993) 461-53-01</div>
+			<button class="header__phone__order">Заказать звонок</button>
+		</div>
+	</header>
+	<div id="name">
+		<div id="div-html">
+			<div id="div1">{}</div>
+			<div id="div2">#</div>
+			<div id="div3">&lt;/&gt;</div>
+			<div id="div4">&lt;div&gt;</div>
+			<div id="div5">&lt;/div&gt;</div>
+		</div>
+		<div class="fixed-container">
+			<div id="me">
+				<div class="myName">Диана Мансурова</div>
+				<div class="greyText">Frontend-разработчик и верстальщик</div>
+				<button class="learnMore">Узнать больше</button>
+			</div>
+			<img id="myPhoto" src="img/me.png">			
+		</div>
+	</div>
+	<div id="skills">
+		<div class="fixed-container">
+			<div id="me1">
+				<div class="myName">Диана Мансурова</div>
+				<div class="greyText">Frontend-разработчик и верстальщик</div>
+				<button class="learnMore">Узнать больше</button>
+			</div>
+			<div class="boldText">Что я делаю</div>
+			<div id="mySkills">
+				<div>
+					<img src="img/tools-and-utensils.png">
+					<div class="greyText">Вёрстка лендинг–страниц и сайтов любой сложности</div>
+				</div>
+				<div>
+					<img src="img/responsive.png">
+					<div class="greyText">Адаптивная вёрстка под все браузеры и устройства</div>
+				</div>
+				<div>
+					<img src="img/programming.png">
+					<div class="greyText">Frontend–разработка и программирование</div>
+				</div>
+				<div>
+					<img src="img/coding.png">
+					<div class="greyText">Исправление и доработка существующей вёрстки</div>
+				</div>
+			</div>
+			<button class="learnMore">Узнать стоимость</button>
+		</div>
+	</div>
+	<div id="examples">
+		<div class="fixed-container">
+			<div class="boldText">Примеры моих работ</div>
+			<button id="other"></button>
+			<button id="other1"></button>
+			<div class="examples__item">
+				<img src="img/desktop.png">
+				<img src="img/desktop-1.png">
+				<img src="img/desktop.png">
+			</div>
+			<button class="learnMore">Заказать проект</button>
+		</div>
+	</div>
+	<div id="special">
+		<div id="div-html-two">
+			<div id="div6">{}</div>
+			<div id="div7">#</div>
+			<div id="div8">&lt;/&gt;</div>
+			<div id="div9">&lt;div&gt;</div>
+			<div id="div10">{}</div>
+		</div>
+		<div class="fixed-container" id="special__item">
+			<div id="special__item_large">Адаптивная вёрстка под все устройства <br>и браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</div>
+			<div id="special__item_little">* Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально,<br>в зависимости от сложности задач.</div>
+		</div>
+	</div>
+	<div id="bottom">
+		<div class="fixed-container">
+			<div id="bottom-info">
+				<div>Услуги</div>
+				<div>Портфолио</div>
+				<div>Стоимость</div>
+			</div>
+			<div id="contact">
+				<div class="contact__item">
+					<img id="phone-icon" src="img/call-answer.png">
+					<div>+7 (993) 461-53-01</div>
+				</div>
+				<div class="contact__item">
+					<img id="mail-icon" src="img/envelope.png">
+					<div>diana.mans2000@gmail.com</div>
+				</div>
+			</div>
+			<div>
+				<button class="header__phone__order">Заказать звонок</button>
+				<div>
+					<img id="vk-icon" src="img/vk.png" usemap="#vk">
+					<img src="img/instagram.png" usemap="#inst">
+					<img id="facebook-icon" src="img/facebook-logo.png" usemap="#facebook">
+					<img src="img/twitter-logo.png" usemap="#twitter">
+					<map name="vk">
+						<area shape="rect" coords="0, 0, 100, 100" href="https://vk.com/id446722027" alt="Перейти в ВК" title="Страница во Вконтакте" target="_blank">
+					</map>
+					<map name="inst">
+						<area shape="rect" coords="0, 0, 100, 100" href="https://instagram.com/didididiana_mans?igshid=YmMyMTA2M2Y=" alt="Перейти в Instagram" title="Страница в Instagram" target="_blank">
+					</map>
+					<map name="facebook">
+						<area shape="rect" coords="0, 0, 100, 100" href="#" alt="Перейти в Facebook" title="Страница на Facebook">
+					</map>
+					<map name="twitter">
+						<area shape="rect" coords="0, 0, 100, 100" href="#" alt="Перейти в Twitter" title="Страница на Twitter">
+					</map>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div id="footer__myName">&#169 Диана Мансурова, 2022</div>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
