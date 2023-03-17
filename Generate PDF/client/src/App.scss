@@ -1,0 +1,27 @@
+.App {
+  margin: 40px auto;
+  padding: 80px;
+  background-color: #cfe2cf;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  input {
+    height: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 308px;
+    height: 28px;
+    border: none;
+    border-radius: 3px;
+    background-color: #80b380;
+    cursor: pointer;
+  }
+
+  button:hover {
+    opacity: 0.5;
+  }
+}
