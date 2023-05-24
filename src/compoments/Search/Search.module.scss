@@ -1,0 +1,65 @@
+.root {
+  position: absolute;
+  left: 450px;
+  margin: 30px;
+  @media (max-width: 940px) {
+    top: 130px;
+    left: 60px;
+    .input {
+      width: 400px;
+      @media (max-width: 530px) {
+        width: 300px;
+      }
+      @media (max-width: 450px) {
+        width: 200px;
+      }
+    }
+  }
+  @media (max-width: 645px) {
+    top: 200px;
+  }
+  @media (max-width: 600px) {
+    top: 170px;
+  }
+  @media (max-width: 388px) {
+    top: 190px;
+  }
+}
+
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 20px 8px 40px;
+  width: 400px;
+  border-radius: 10px;
+  font-size: 16px;
+
+  &:focus {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  @media (max-width: 1150px) {
+    width: 300px;
+  }
+  @media (max-width: 1040px) {
+    width: 200px;
+  }
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.3;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+.close_icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.3;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  cursor: pointer;
+}
