@@ -8,9 +8,14 @@
     "allowJs": true,
     "moduleResolution": "node",
     //чтобы с пакетами common js работать как с обычными пакетами
+
     "esModuleInterop": true,
     //чтобы в пакетах common js сделать искусственный export default
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "ts-node": {
     "compilerOptions": {
