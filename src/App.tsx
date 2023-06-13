@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { Link } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
+import { classNames } from './helpers/classNames/classNames';
 import { AboutPageAsync } from './pages/AboutPage/AboutPage.async';
 import MainPage from './pages/MainPage/MainPage';
 import './styles/index.scss';
@@ -9,7 +10,7 @@ import { useTheme } from './theme/useTheme';
 const App = () => {
   const { theme, toggleTheme } = useTheme();
   return (
-    <div className={`app ${theme}`}>
+    <div className={classNames('app', {}, [theme])}>
       <Link to={'/'}>Главная</Link>
       <br />
       <Link to={'/about'}>О сайте</Link>
