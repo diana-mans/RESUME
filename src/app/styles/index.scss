@@ -6,11 +6,7 @@
 .app {
   font: var(--font-m);
   background-color: var(--bg-color);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 
   min-height: 100vh;
-}
-
-a {
-  color: var(--secondary-color);
 }
