@@ -2,7 +2,6 @@ import { useTheme } from '@/app/providers/ThemeProvider';
 import { classNames } from '@/shared/lib/classNames/classNames';
 import {
   createStyles,
-  FormControlLabel,
   Switch,
   SwitchClassKey,
   SwitchProps,

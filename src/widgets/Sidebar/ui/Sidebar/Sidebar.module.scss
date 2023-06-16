@@ -2,7 +2,6 @@
   height: calc(100vh - var(--navbar-height));
   width: var(--sidebar-width);
   background: var(--hard-bg-color);
-
   position: relative;
   transition: width 0.3s;
 }
@@ -20,9 +19,7 @@
 
 .switchers {
   position: absolute;
-  height: 52px;
-  bottom: 50px;
-  display: flex;
-  justify-content: start;
-  width: 100%;
+  width: 80px;
+  height: 100px;
+  bottom: 20px;
 }
