@@ -1,0 +1,28 @@
+.Sidebar {
+  height: calc(100vh - var(--navbar-height));
+  width: var(--sidebar-width);
+  background: var(--hard-bg-color);
+
+  position: relative;
+  transition: width 0.3s;
+}
+
+.collapsed {
+  width: var(--sidebar-width-collapsed);
+}
+
+.sidebarIcon {
+  position: relative;
+  left: 18px;
+  top: 10px;
+  fill: var(--primary-color);
+}
+
+.switchers {
+  position: absolute;
+  height: 52px;
+  bottom: 50px;
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}

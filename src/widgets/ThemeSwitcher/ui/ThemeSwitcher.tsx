@@ -89,13 +89,8 @@ interface ThemeSwitcherProps {
 export const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
   const { theme, toggleTheme } = useTheme();
   return (
-    <div>
-      <IOSSwitch
-        className={classNames(cls.ThemeSwitcher, {}, [className])}
-        checked={theme === 'dark'}
-        onChange={toggleTheme}
-        name="checkedB"
-      />{' '}
+    <div className={classNames(cls.ThemeSwitcher, {}, [className])}>
+      <IOSSwitch checked={theme === 'dark'} onChange={toggleTheme} name="checkedB" />{' '}
       {theme === 'light' ? (
         <LightIcon onClick={toggleTheme} className={cls.lightIcon} />
       ) : (
