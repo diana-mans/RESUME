@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Montserrat:wght@300;600&family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+.PageError {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  font-family: 'Montserrat', sans-serif;
+
+  h2 {
+    color: #1e2226;
+    margin: 0;
+  }
+
+  p {
+    color: #727678;
+  }
+
+  button {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #1e2226;
+    border-radius: 10px;
+  }
+}
