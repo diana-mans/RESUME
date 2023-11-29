@@ -3,15 +3,17 @@
 # RESUME
 
 Коммерческие проекты:
-День флага https://memesis.ru/flag/
 
-День голосования https://memesis.ru/voteday/
+[День рождения президента](https://helpful-kelpie-c429ca.netlify.app/)
 
-День наставника https://memesis.ru/mentor/
 
-День рождения президента https://memesis.ru/wakeup/
+[Dick Kick](https://memesis.ru/flag/)
 
-Подобие Flappy Bird https://helpful-kelpie-c429ca.netlify.app/
+[День голосования](https://memesis.ru/voteday/)
+
+[День наставника](https://memesis.ru/mentor/)
+
+[День рождения президента]( https://memesis.ru/wakeup/)
 
 
 My projects for resume
