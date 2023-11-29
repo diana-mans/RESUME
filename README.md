@@ -4,10 +4,16 @@
 
 Коммерческие проекты:
 День флага https://memesis.ru/flag/
+
 День голосования https://memesis.ru/voteday/
+
 День наставника https://memesis.ru/mentor/
+
 День рождения президента https://memesis.ru/wakeup/
+
 Подобие Flappy Bird https://helpful-kelpie-c429ca.netlify.app/
+
+
 My projects for resume
 
 1. Ветка Lending: простой одностраничный сайт личного бренда, написанный на html и css с использованием jquery для анимаций.
