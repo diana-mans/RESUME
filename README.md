@@ -2,18 +2,6 @@
 
 # RESUME
 
-Коммерческие проекты:
-
-[День рождения президента](https://helpful-kelpie-c429ca.netlify.app/)
-
-
-[Dick Kick](https://memesis.ru/flag/)
-
-[День голосования](https://memesis.ru/voteday/)
-
-[День наставника](https://memesis.ru/mentor/)
-
-[День рождения президента]( https://memesis.ru/wakeup/)
 
 
 My projects for resume
